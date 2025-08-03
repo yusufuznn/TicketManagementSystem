@@ -1,0 +1,314 @@
+body {
+  background: #f3f4f6;
+  margin: 0;
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #f3f4f6;
+}
+
+.navbar {
+  background: #2563eb;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 32px;
+  height: 60px;
+  box-shadow: 0 2px 8px rgba(30,41,59,0.06);
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.navbar-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.navbar-menu button {
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  margin-left: 18px;
+  cursor: pointer;
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition: background 0.2s;
+}
+
+.navbar-menu button:hover {
+  background: rgba(255,255,255,0.12);
+}
+
+.main-content {
+  flex: 1;
+  padding: 32px 0 32px 0;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.footer {
+  background: #fff;
+  color: #1e293b;
+  text-align: center;
+  padding: 18px 0;
+  font-size: 1rem;
+  border-top: 1px solid #e5e7eb;
+  box-shadow: 0 -2px 8px rgba(30,41,59,0.03);
+}
+
+/* Kart ve kutu stilleri örnek */
+.card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(30,41,59,0.06);
+  padding: 24px;
+  margin-bottom: 24px;
+}
+
+button, input, select, textarea {
+  font-family: inherit;
+}
+
+/* Modern tablo */
+.modern-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  font-size: 1rem;
+}
+.modern-table th, .modern-table td {
+  padding: 12px 10px;
+  border-bottom: 1px solid #e5e7eb;
+  text-align: left;
+}
+.modern-table th {
+  background: #f3f4f6;
+  font-weight: 600;
+}
+
+
+.modern-table tr:last-child td {
+  border-bottom: none;
+}
+
+.table-responsive {
+  width: 100%;
+  overflow-x: auto;
+}
+
+/* Buton stilleri */
+button.secondary-btn {
+  background: #e5e7eb;
+  color: #1e293b;
+}
+button.secondary-btn:hover {
+  background: #cbd5e1;
+}
+button.danger-btn {
+  background: #ef4444;
+  color: #fff;
+}
+button.danger-btn:hover {
+  background: #b91c1c;
+}
+button.info-btn {
+  background: #2563eb;
+  color: #fff;
+}
+button.info-btn:hover {
+  background: #1e40af;
+}
+
+/* Uyarı kartı */
+.warning-card {
+  background: #fffbe6;
+  color: #b45309;
+  border: 1px solid #fde68a;
+}
+
+/* Filtreler için grid */
+.ticket-filters .filters-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  align-items: center;
+}
+.ticket-filters label {
+  font-weight: 500;
+}
+
+/* Modal stilleri */
+.modal-overlay {
+  position: fixed;
+  top: 0; left: 0; width: 100vw; height: 100vh;
+  background: rgba(0,0,0,0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+.modal-card {
+  background: #fff;
+  padding: 32px;
+  border-radius: 12px;
+  min-width: 350px;
+  min-height: 120px;
+  position: relative;
+  box-shadow: 0 4px 24px rgba(30,41,59,0.12);
+}
+.modal-close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: transparent;
+  color: #1e293b;
+  font-size: 1.5rem;
+  border: none;
+  cursor: pointer;
+}
+
+/* TicketCreate ve formlar */
+.ticket-create-form .form-row {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 14px;
+}
+.ticket-create-form label {
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.form-row input,
+.form-row select,
+.form-row textarea,
+.form-row button {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.form-row {
+  margin-bottom: 16px;
+}
+
+/* Başarı mesajı */
+.success-card {
+  background: #ecfdf5;
+  color: #047857;
+  border: 1px solid #6ee7b7;
+  border-radius: 8px;
+  padding: 10px 16px;
+  font-weight: 500;
+}
+
+/* TicketDetail alanları */
+.ticket-detail-fields > div {
+  margin-bottom: 6px;
+}
+
+.ticket-comments, .ticket-attachments, .ticket-timeline {
+  list-style: none;
+  padding-left: 0;
+  margin: 8px 0 16px 0;
+}
+.ticket-comments li, .ticket-attachments li, .ticket-timeline li {
+  margin-bottom: 8px;
+  padding: 8px 0;
+  border-bottom: 1px solid #f3f4f6;
+}
+.ticket-comments li:last-child, .ticket-attachments li:last-child, .ticket-timeline li:last-child {
+  border-bottom: none;
+}
+
+.comment-date {
+  color: #888;
+  font-size: 12px;
+  margin-left: 8px;
+}
+
+.danger-card {
+  background: #fef2f2;
+  color: #b91c1c;
+  border: 1px solid #fecaca;
+  border-radius: 8px;
+  padding: 10px 16px;
+  font-weight: 500;
+}
+
+.login-form, .register-form, .profile-form, .change-password-form {
+  max-width: 400px;
+  margin: 32px auto;
+  padding: 32px 24px;
+  box-sizing: border-box;
+}
+
+/* Giriş ve kayıt sayfası altındaki yönlendirme butonu */
+.login-form + button,
+.register-form + button {
+  display: block;
+  margin: 16px auto 0 auto;
+  min-width: 180px;
+}
+
+@media (max-width: 700px) {
+  .main-content {
+    padding: 16px 0;
+  }
+  .navbar {
+    flex-direction: column;
+    height: auto;
+    padding: 12px;
+    gap: 8px;
+  }
+  .navbar-menu button {
+    margin-left: 0;
+    margin-right: 8px;
+    margin-bottom: 6px;
+  }
+}
+
+@media (max-width: 900px) {
+  .modern-table th, .modern-table td {
+    padding: 8px 4px;
+    font-size: 0.95rem;
+  }
+  .modal-card {
+    min-width: 220px;
+    padding: 16px;
+  }
+  .ticket-filters .filters-row {
+    gap: 8px;
+  }
+}
+
+@media (max-width: 600px) {
+  .modern-table th, .modern-table td {
+    font-size: 0.9rem;
+  }
+  .modal-card {
+    min-width: 120px;
+    padding: 8px;
+  }
+  .ticket-filters .filters-row {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .login-form, .register-form, .profile-form, .change-password-form {
+    max-width: 98vw;
+    padding: 16px 4px;
+    margin: 16px auto;
+  }
+}
