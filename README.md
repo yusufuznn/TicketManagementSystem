@@ -1,4 +1,4 @@
-# Ticket System
+# Ticketly
 <img width="1024" height="1024" alt="ticketly" src="https://github.com/user-attachments/assets/fcd68c62-0ddd-47f3-a67f-7fe4bd4d088b" />
 
 A modern and user-friendly ticket management system.
