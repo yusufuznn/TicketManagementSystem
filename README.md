@@ -44,21 +44,21 @@ This project is designed for tracking customer support requests, assigning staff
 
 ## 📸 Screenshots
 <img width="1912" height="922" alt="login" src="https://github.com/user-attachments/assets/b582d548-762b-4373-9118-6c8fb81216fc" />
-**login page**
+* **login page**
 <img width="1916" height="925" alt="register" src="https://github.com/user-attachments/assets/e35cdfe7-dd02-4662-af84-1b61533329af" />
-**register page**
+* **register page**
 <img width="1915" height="922" alt="musHp" src="https://github.com/user-attachments/assets/f1f71e04-a22e-4a5e-afb0-fec2e77a121f" />
-**customer homepage**
+* **customer homepage**
 <img width="1208" height="916" alt="ticketDetail" src="https://github.com/user-attachments/assets/4e71db2b-d023-4aaf-a2c1-54e49bab0f33" />
-**ticket creation, listing and details**
+* **ticket creation, listing and details**
 <img width="1908" height="863" alt="persHp" src="https://github.com/user-attachments/assets/87ac5b3f-d7e3-48ec-a7da-44b90afe76cd" />
-**staff homepage**
+* **staff homepage**
 <img width="1206" height="330" alt="persPanel" src="https://github.com/user-attachments/assets/8373a930-e4ca-43fd-982f-870c2a630912" />
-**staff page**
+* **staff page**
 <img width="1905" height="910" alt="adminHp" src="https://github.com/user-attachments/assets/f15df593-2e12-4996-9349-b62c7b95b334" />
-**admin homepage**
+* **admin homepage**
 <img width="1157" height="847" alt="adminPanel" src="https://github.com/user-attachments/assets/0bbe748e-cc6e-48f4-aa7a-d014d981258d" />
-**admin page**
+* **admin page**
 
 ## 📦 Installation
 
